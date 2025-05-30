@@ -1,6 +1,15 @@
 name: EverGenKoth
-main: your.group.id.MainClass
+main: me.kjfrm085.evergenkoth.EverGenKothPlugin
 version: 1.0
 api-version: 1.21
-description: EverGen Koth Plugin
-author: kjfrm085#0
+author: "kjfrm085#0"
+description: "A feature-rich King of the Hill plugin with arenas, rewards, scheduling, and more."
+commands:
+  evergenkoth:
+    description: "Main command for EverGenKoth."
+    usage: "/evergenkoth <subcommand>"
+    permission: evergenkoth.admin
+permissions:
+  evergenkoth.admin:
+    description: "Allows use of all EverGenKoth commands."
+    default: op
