@@ -1,0 +1,16 @@
+arenas: {}
+rewards:
+  default: "give %player% diamond 3"
+schedule:
+  enabled: false
+  interval-minutes: 60
+  arenas: []
+messages:
+  prefix: "&6[EverGenKoth]&r "
+  not_admin: "&cYou do not have permission to use this command."
+  arena_created: "&aArena &e%arena% &acreated!"
+  arena_removed: "&cArena &e%arena% &cremoved!"
+  koth_started: "&aKOTH started at &e%arena%&a!"
+  koth_stopped: "&cKOTH stopped."
+  reward_given: "&aYou received your reward!"
+  capture_progress: "&e%player% &ais capturing &e%arena%&a! &7[%progress%%]"
