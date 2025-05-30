@@ -1,0 +1,6 @@
+name: EverGenKoth
+main: your.group.id.MainClass
+version: 1.0
+api-version: 1.21
+description: EverGen Koth Plugin
+author: kjfrm085#0
