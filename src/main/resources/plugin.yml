@@ -13,3 +13,4 @@ permissions:
   evergenkoth.admin:
     description: "Allows use of all EverGenKoth commands."
     default: op
+depend: [WorldEdit]
